@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'Scout';
+	src: url('Estidio12 - Fonts + Image/Fonts/Scout-Regular.otf'), 
+	     format('opentype');
+	color: #262626;
+	font-weight: normal;
+}
+
+/*Bold*/
+
+@font-face {
+	font-family: 'Scout';
+	src: url('Estidio12 - Fonts + Image/Fonts/Scout-Bold.otf'), 
+	     format('opentype');
+	font-weight: bold;
+	color: #262626;
+}
+
+/*Light*/
+
+@font-face {
+	font-family: 'Scout';
+	src: url('Estidio12 - Fonts + Image/Fonts/Scout-Light.otf'), 
+	     format('opentype');
+	font-weight: lighter; 
+	color: #262626;    
+}
+
+/*Thin*/
+
+@font-face {
+	font-family: 'Scout';
+	src: url('Estidio12 - Fonts + Image/Fonts/Scout-Thin.otf'), 
+	     format('opentype');
+	font-weight: 200;
+	color: #262626;
+}
+
+/*Extra Light*/
+
+@font-face {
+	font-family: 'Scout';
+	src: url('Estidio12 - Fonts + Image/Fonts/Scout-ExtraLight.otf'), 
+	     format('opentype');
+	font-weight: 100;
+	color: #262626;
+}
+
+/*Cond Regular*/
+
+@font-face {
+	font-family: 'Scout';
+	src: url('Estidio12 - Fonts + Image/Fonts/ScoutCond-Regular.otf'), 
+	     format('opentype');
+	color: #262626;
+}
+
+body {
+	font-family: 'Scout', sans-serif;
+}
+
+.shippingReturns {
+	color: #FFFFFF;
+	background-color: #262626;
+}
+
+.shippingReturns a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#estudio12 {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.link a {
+	color: #262626;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 20px;
+}
+
+.shipping {
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 4px;
+	background-color: #364a63;
+	border-bottom: 5px solid #e9c2d7;
+}
+
+.shipping a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.nest {
+	margin-top: 50px;
+}
+
+.women {
+
+}
+
+.men {
+	margin-top: 40px;
+}
+
+.watch {
+
+}
+
+.watches {
+
+}
+
+.fossilStyle {
+
+}
+
+.socialMedia {
+	height: 80px;
+	background-color: #262626;
+	padding: 20px;
+}
+
+.customerServices ul {
+	display: inline-block;
+}
