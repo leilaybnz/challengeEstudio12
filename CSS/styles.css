@@ -62,16 +62,20 @@ body {
 .shippingReturns {
 	color: #FFFFFF;
 	background-color: #262626;
+	height: 30px;
+	padding: 5px;
 }
 
 .shippingReturns a {
 	color: #FFFFFF;
 	text-decoration: none;
+	padding: 10px;
 }
 
 #estudio12 {
 	font-size: 26px;
 	font-weight: bold;
+	margin-top: 10px;
 }
 
 .link a {
@@ -79,6 +83,7 @@ body {
 	text-decoration: none;
 	font-size: 22px;
 	font-weight: 400;
+	margin: 10px;
 	padding: 20px;
 }
 
@@ -97,7 +102,13 @@ body {
 	text-transform: capitalize;
 }
 
+.imagen {
+	margin-left: 20px;
+	margin-right: -15px;
+}
+
 .nest {
+	width: 1200px;
 	margin-top: 50px;
 }
 
@@ -105,11 +116,11 @@ body {
 
 }
 
-.men {
+.menWatch {
 	margin-top: 40px;
 }
 
-.watch {
+.menWatches {
 
 }
 
