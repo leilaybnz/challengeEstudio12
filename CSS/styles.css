@@ -90,6 +90,10 @@ body {
 	padding: 20px;
 }
 
+.link a:hover {
+	color: #666666;
+}
+
 .shipping {
 	height: 40px;
 	color: #FFFFFF;
@@ -106,8 +110,8 @@ body {
 	text-transform: capitalize;
 }
 
-.imagen {
-	width: 100%;
+#carousel {
+	padding: 0;
 }
 
 .nest {
@@ -120,10 +124,18 @@ body {
 	padding: 20px;
 }
 
+.women img {
+	padding: 15px;
+}
+
 .men {
 	font-size: 46px;
 	font-weight: 500;
 	padding: 20px;
+}
+
+.men img {
+	padding: 15px;
 }
 
 .fossilStyle {
