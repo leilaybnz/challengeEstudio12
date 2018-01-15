@@ -60,19 +60,23 @@ body {
 	font-family: 'Scout', sans-serif;
 }
 
+.noPad {
+	padding: 0px;
+}
+
 .shippingReturns {
 	font-weight: 400;
 	font-size: 18px;
 	color: #FFFFFF;
 	background-color: #262626;
 	height: 30px;
-	padding: 2px;
+	/*padding: 2px;*/
 }
 
 .shippingReturns a {
 	color: #FFFFFF;
 	text-decoration: none;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
 #estudio12 {
@@ -99,7 +103,7 @@ body {
 	color: #FFFFFF;
 	font-size: 20px;
 	font-weight: 100;
-	padding: 4px;
+	/*padding: 4px;*/
 	background-color: #364a63;
 	border-bottom: 5px solid #e9c2d7;
 }
@@ -110,37 +114,22 @@ body {
 	text-transform: capitalize;
 }
 
-#carousel {
-	padding: 0;
-}
-
-.nest {
-	width: 1200px;
-	padding: 0px;
-}
-
 .women {
-	font-size: 46px;
-	font-weight: 500;
-	padding: 20px;
-}
-/*
-.women img {
-	padding: 20px;
-}
-*/
-.noPadding {
-	padding: 0px;
+	font-size: 50px;
+	margin: 20px;
 }
 
 .men {
-	font-size: 46px;
-	font-weight: 500;
-	padding: 20px;
+	font-size: 50px;
+	margin: 20px;
 }
 
-.men img {
-	padding: 20px;
+.watches {
+	margin-top: 20px;
+}
+
+.heightRow {
+	height: 281px;
 }
 
 .fossilStyle {
@@ -153,24 +142,26 @@ body {
 	font-size: 20px;
 }
 
-.fossilStyle img {
-	padding: 20px;
-}
-
 .paragraph h4 {
 	font-weight: 400;
 	font-size: 22px;
 }
 
 .paragraph p {
-	font-weight: 200;
-	font-size: 20px;
+	font-weight: 300;
+	font-size: 18px;
 }
 
 .socialMedia {
 	height: 80px;
 	background-color: #262626;
 	padding: 20px;
+}
+
+.customerServices ul .att {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 20px;
 }
 
 .customerServices ul {
@@ -180,9 +171,3 @@ body {
 	margin: 30px;
 }
 
-.customerServices ul .att {
-	display: inline-block;
-	font-weight: 400;
-	font-size: 20px;
-	/*margin: 30px;*/
-}
