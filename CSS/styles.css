@@ -116,6 +116,7 @@ body {
 
 .nest {
 	width: 1200px;
+	padding: 0px;
 }
 
 .women {
@@ -123,9 +124,13 @@ body {
 	font-weight: 500;
 	padding: 20px;
 }
-
+/*
 .women img {
-	padding: 15px;
+	padding: 20px;
+}
+*/
+.noPadding {
+	padding: 0px;
 }
 
 .men {
@@ -135,7 +140,7 @@ body {
 }
 
 .men img {
-	padding: 15px;
+	padding: 20px;
 }
 
 .fossilStyle {
