@@ -119,9 +119,24 @@ body {
 	margin: 20px;
 }
 
+.womenWatches {
+	display: flex;
+	align-items: flex-end;
+}
+
+.pics {
+	width: 100%;
+	padding: 0px 24px;
+}
+
 .men {
 	font-size: 50px;
 	margin: 20px;
+}
+
+.menWatches {
+	display: flex;
+	align-items: flex-end;
 }
 
 .watches {
