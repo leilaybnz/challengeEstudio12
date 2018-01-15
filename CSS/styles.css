@@ -1,6 +1,6 @@
 @font-face{
    font-family:'Scout';
-   src: url(../fonts/Scout-Regular.otf),
+   src: url(../fonts/Scout-Regular.otf)
    		format('opentype');
    font-weight: normal;
    color: #262626;
@@ -10,7 +10,7 @@
 
 @font-face{
    font-family:'Scout';
-   src: url(../fonts/Scout-Bold.otf),
+   src: url(../fonts/Scout-Bold.otf)
    		format('opentype');
    font-weight: 700;
    color: #262626;
@@ -20,7 +20,7 @@
 
 @font-face{
    font-family:'Scout';
-   src: url(../fonts/Scout-Light.otf),
+   src: url(../fonts/Scout-Light.otf)
    		format('opentype');
    font-weight: 300;
    color: #262626;
@@ -30,7 +30,7 @@
 
 @font-face{
    font-family:'Scout';
-   src: url(../fonts/Scout-Thin.otf),
+   src: url(../fonts/Scout-Thin.otf)
    		format('opentype');
    font-weight: 100;
    color: #262626;
@@ -40,7 +40,7 @@
 
 @font-face{
    font-family:'Scout';
-   src: url(../fonts/Scout-ExtraLight.otf),
+   src: url(../fonts/Scout-ExtraLight.otf)
    		format('opentype');
    font-weight: 200;
    color: #262626;
@@ -50,7 +50,7 @@
 
 @font-face {
 	font-family: 'Scout';
-	src: url('../fonts/ScoutCond-Regular.otf'), 
+	src: url('../fonts/ScoutCond-Regular.otf')
 	     format('opentype');
 	font-weight: 400;
 	color: #262626;
@@ -61,10 +61,12 @@ body {
 }
 
 .shippingReturns {
+	font-weight: 400;
+	font-size: 18px;
 	color: #FFFFFF;
 	background-color: #262626;
 	height: 30px;
-	padding: 5px;
+	padding: 2px;
 }
 
 .shippingReturns a {
@@ -74,7 +76,7 @@ body {
 }
 
 #estudio12 {
-	font-size: 26px;
+	font-size: 36px;
 	font-weight: bold;
 	margin-top: 10px;
 }
@@ -82,7 +84,7 @@ body {
 .link a {
 	color: #262626;
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 28px;
 	font-weight: 400;
 	margin: 10px;
 	padding: 20px;
@@ -91,7 +93,8 @@ body {
 .shipping {
 	height: 40px;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: 100;
 	padding: 4px;
 	background-color: #364a63;
 	border-bottom: 5px solid #e9c2d7;
@@ -123,8 +126,28 @@ body {
 	padding: 20px;
 }
 
+.fossilStyle {
+	font-weight: 500;
+	font-size: 46px;
+}
+
+#fossil {
+	font-weight: 300;
+	font-size: 20px;
+}
+
 .fossilStyle img {
 	padding: 20px;
+}
+
+.paragraph h4 {
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.paragraph p {
+	font-weight: 200;
+	font-size: 20px;
 }
 
 .socialMedia {
@@ -135,4 +158,14 @@ body {
 
 .customerServices ul {
 	display: inline-block;
+	font-weight: 300;
+	font-size: 20px;
+	margin: 30px;
+}
+
+.customerServices ul .att {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 20px;
+	/*margin: 30px;*/
 }
