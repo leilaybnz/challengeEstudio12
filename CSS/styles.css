@@ -69,12 +69,19 @@ body {
 	font-size: 18px;
 }
 
+nav {
+	background-color: #262626;
+}
+
 .shippingReturns {
 	font-weight: 400;
 	font-size: 18px;
 	color: #FFFFFF;
 	background-color: #262626;
 	height: 30px;
+	display: flex;
+  	justify-content: space-between;
+   	align-content: center;
 }
 
 .shippingReturns a {
@@ -154,6 +161,8 @@ body {
 .fossilStyle {
 	font-weight: 500;
 	font-size: 46px;
+	display: flex;
+	align-content: center;
 }
 
 #fossil {
@@ -195,13 +204,21 @@ body {
 	font-size: 20px;
 }
 
-@media(max-width: 996px){
+@media(max-width: 768px){
 	
+	.shippingReturns {
+		margin: 0 0px;
+	}
+
 	.shippingReturns a {
 	font-weight: 300;
 	font-size: 12px;
 	padding: 8px;
 	margin: 0;
+	}
+
+	#fossilWatch {
+		display: none;
 	}
 
 	.socialMedia {
@@ -213,4 +230,5 @@ body {
 	display: inline-block;
 	margin: auto;
 	}	
+
 }
