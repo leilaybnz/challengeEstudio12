@@ -64,6 +64,11 @@ body {
 	padding: 0px;
 }
 
+.texto {
+	font-weight: 300;
+	font-size: 18px;
+}
+
 .shippingReturns {
 	font-weight: 400;
 	font-size: 18px;
