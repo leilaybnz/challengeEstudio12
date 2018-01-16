@@ -82,6 +82,7 @@ nav {
 	display: flex;
   	justify-content: space-between;
    	align-content: center;
+   	margin: 0 8.33%;
 }
 
 .shippingReturns a {
@@ -158,6 +159,11 @@ nav {
 	height: 281px;
 }
 
+#hash {
+	font-size: 40px;
+	font-weight: 500;
+	margin-top: 10px;
+}
 .fossilStyle {
 	font-weight: 500;
 	font-size: 46px;
@@ -217,7 +223,12 @@ nav {
 	margin: 0;
 	}
 
-	#fossilWatch {
+	.fossilStyle {
+		display: flex;
+		align-content: center;
+	}
+
+	.fossilWatchNone {
 		display: none;
 	}
 
