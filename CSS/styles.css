@@ -75,7 +75,6 @@ body {
 	color: #FFFFFF;
 	background-color: #262626;
 	height: 30px;
-	/*padding: 2px;*/
 }
 
 .shippingReturns a {
@@ -194,4 +193,24 @@ body {
 	display: inline-block;
 	font-weight: 400;
 	font-size: 20px;
+}
+
+@media(max-width: 996px){
+	
+	.shippingReturns a {
+	font-weight: 300;
+	font-size: 12px;
+	padding: 8px;
+	margin: 0;
+	}
+
+	.socialMedia {
+	height: 40px;
+	padding: 0px; 
+	}
+
+	.socialMedia div {
+	display: inline-block;
+	margin: auto;
+	}	
 }
