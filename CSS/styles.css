@@ -107,8 +107,8 @@ body {
 	height: 40px;
 	color: #FFFFFF;
 	font-size: 20px;
-	font-weight: 100;
-	/*padding: 4px;*/
+	font-weight: 300;
+	padding: 4px;
 	background-color: #364a63;
 	border-bottom: 5px solid #e9c2d7;
 }
@@ -173,14 +173,14 @@ body {
 }
 
 .socialMedia {
-	height: 80px;
+	height: 100px;
 	background-color: #262626;
+	padding: 30px; 
 }
 
-.customerServices ul .att {
+.socialMedia div {
 	display: inline-block;
-	font-weight: 400;
-	font-size: 20px;
+	margin: 0px 20px;
 }
 
 .customerServices ul {
@@ -190,3 +190,8 @@ body {
 	margin: 30px;
 }
 
+.customerServices ul .att {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 20px;
+}
